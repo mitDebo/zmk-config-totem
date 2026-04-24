@@ -7,5 +7,9 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-totem-module
+      url: https://github.com/rafiks/zmk-totem-module
+      revision: main
+      path: modules/zmk-totem-module
   self:
     path: config
